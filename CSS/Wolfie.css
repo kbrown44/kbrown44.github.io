@@ -1,0 +1,148 @@
+div.AContainer {
+    background-color: #990000;
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%
+}
+
+div.BContainer {
+    background-color: aqua;
+    float: left;
+    height: 80%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+div.header {
+    background-color: #990000;
+    float: left;
+    height: 12%;
+    width: 100%;  
+}
+
+div.carousel {
+    background-color: white;
+    float: left;
+    height: 90%;
+    width: 100%;
+}
+
+div.featured {
+    background-color: white;
+    float: left;
+    height: 150%;
+    width: 100%
+}
+div.footer {
+    background-color: #990000;
+    float: left;
+    height: 8%;
+    width: 100%
+}
+
+div.box {
+    background-color: dimgray;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
+}
+
+div.line {
+    background-color: #990000;
+    width: 60%;
+    height: 4px;
+    float: top;
+    margin-bottom: 4%;
+}
+
+img.logo{
+    width: 8%;
+    margin-top: 0.8%;
+    margin-left: 4%;
+}
+
+img.SLog {
+    width: 10%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+img.FPro {
+    width: 30%;
+    margin-left: 2.3%;
+    float: left;
+}
+
+#footA {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+#car {
+    width: 100%;
+}
+
+#footB {
+    color: white;
+    text-decoration: none;
+    margin-left: 25%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#ref {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 20%;
+    text-decoration: none;
+}
+
+#feat {
+    color: white;
+    float: top;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 220%;
+    margin-top: 2%;
+}
+
+
+
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: darkred;
+  z-index: 1002;
+  overflow: auto;
+}
+
+#close {
+    text-decoration: none;
+    color: darkred;
+    background-color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 200%;
+}
