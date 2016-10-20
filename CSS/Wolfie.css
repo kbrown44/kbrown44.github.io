@@ -1,5 +1,5 @@
 div.AContainer {
-    background-color: #990000;
+    background-color: white;
     position:fixed;
     padding:0;
     margin:0;
@@ -60,6 +60,22 @@ div.line {
     margin-bottom: 4%;
 }
 
+div.wordDiv {
+    background-color: white;
+    float: left;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    overflow-y: scroll;
+}
+}
+
+div.text {
+    background-color: white;
+    width: 80%;
+    padding-top: 8%;
+}
+
 img.logo{
     width: 8%;
     margin-top: 0.8%;
@@ -112,6 +128,13 @@ img.FPro {
     margin-top: 2%;
 }
 
+p.bulk {
+    color: #990000;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 180%;
+    text-align: center;
+}
+
 
 
 .black_overlay {
@@ -143,6 +166,12 @@ img.FPro {
     text-decoration: none;
     color: darkred;
     background-color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 200%;
+}
+
+h2 {
+    text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 200%;
 }
