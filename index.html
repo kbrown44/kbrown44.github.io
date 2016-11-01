@@ -6,6 +6,8 @@
         <title>Wolfie Sync | Home</title>
         <link rel="icon" href="Images/Favicon.png">
         <link rel="stylesheet" type="text/css" href="CSS/Wolfie.css">
+        <link rel="stylesheet" href="CSS/unslider.css">
+        <link rel="stylesheet" href="CSS/unslider-dots.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     </head>
     
@@ -21,8 +23,16 @@
             
             <div class="BContainer">
                 
-                    <div class="carousel">
-                        <img src="Images/Car.jpg" id="car">
+                    <div class="my-slider">
+                        <ul>
+                            
+                            <li><a href="sign.html"><img src="Images/Slider/Slide_01.jpg" class="slide"></a></li>
+                            
+                            <li><a href="sign.html"><img src="Images/Slider/Slide_02.jpg" class="slide"></a></li>
+                            
+                            <li><a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="Images/Slider/Slide_03.jpg" class="slide"></a></li>
+                                
+	                   </ul>
                     </div>
                 
                     <div class="featured">
@@ -57,6 +67,10 @@
             
         </div>
         
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="JS/unslider.js"></script>
+    <script src="JS/wolfie-main.js"></script> 
+
+</body>
     
 </html>
