@@ -12,6 +12,7 @@
     width: 10%;
     height: 70%;
     float: none;
+    margin-top: 1%;
     margin-right: 5%;
     
 }
@@ -56,7 +57,7 @@
     padding-bottom: 1%;
     display: inline-block;
     cursor: pointer;
-    width: 5%;
+    
     float: right;
     margin-top: 1%;
     margin-right: 5%;
