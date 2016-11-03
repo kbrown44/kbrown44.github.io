@@ -78,7 +78,7 @@ div.AContainer {
 div.BContainer {
     background-color: white;
     float: left;
-    height: 75%;
+    height: 80%;
     width: 100%;
     overflow-y: scroll;
 }
@@ -88,7 +88,6 @@ div.header {
     float: left;
     height: 12%;
     width: 100%;  
-    box-shadow: 1px  3px 3px #511111;
 }
 div.subheader{
     background-color: #FFFFFF;
@@ -96,7 +95,6 @@ div.subheader{
     margin-top: 2%;
     height: 4%;
     width: 100%;  
-   box-shadow: 1px  3px 3px #511111;
     
 }
 
@@ -108,7 +106,7 @@ div.carousel {
 }
 
 div.my-slider {
-    background-color: black;
+    background-color: white;
 }
 
 div.featured {
@@ -120,7 +118,7 @@ div.featured {
 div.footer {
     background-color: #F55E5D;
     float: left;
-    height: 10%;
+    height: 8%;
     width: 100%
 }
 
@@ -173,8 +171,7 @@ img.SLog {
 }
 
 img.slide {
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
 }
 
 img.FPro {
@@ -254,12 +251,12 @@ p.bulk {
     text-decoration: none;
     color: darkred;
     background-color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 200%;
 }
 
 h2 {
     text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 200%;
 }
