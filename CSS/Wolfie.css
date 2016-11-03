@@ -12,9 +12,35 @@
     width: 10%;
     height: 70%;
     float: none;
-    
     margin-right: 5%;
+    
 }
+.buttonGlow {
+     background-color : #F55E5D;
+    text-decoration : none;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+    width: 10%;
+    height: 70%;
+    float: none;
+    margin-right: 5%;
+    -webkit-animation-name: underscore; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: underscore;
+    animation-duration: 4s;
+}
+
+@keyframes underscore {
+    from {border-bottom-color: none;}
+    to {border-bottom-color: black; border-bottom-width:5px; }
+}
+
 
 .buttonInv {
     background-color : #F55E5D;
