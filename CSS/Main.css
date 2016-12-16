@@ -17,7 +17,9 @@
     margin: 0 auto; 
     margin-top: 6%;
     
-    }.button:hover{
+    }
+    
+    .button:hover{
         background-color: white;
     }
      
