@@ -59,6 +59,10 @@ body {
     color: white;
 }
 
+#splashText:hover {
+    color: red;
+}
+
 #splashLogo {
     width: 16%;
     margin-top: 6%;
