@@ -1,188 +1,91 @@
-
-.button{
-    position: inherit;
-    background-color : none ;
-    text-decoration : none ;
-    color: #FFFFFF;
-    font-family: 'Raleway', sans-serif;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFF;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    display: inline-block;
-    cursor: pointer;
-    margin: 0 auto; 
-    margin-top: 6%;
-    
-    }
-    
-    .button:hover{
-        background-color: white;
-    }
-     
-    a {
-        text-decoration: none ;
-        text-decoration-color: white;
-        color: white;
-    }
-    
-    a:hover{
-        color:red;
-    }
+html, body {
+  height: 100%;
+}
 
 body {
-    background-color: #eeeaea;
+  background-color: #000000;
+  margin: 0;
+  font-family: Helvetica, sans-serif;;
+  overflow: hidden;
 }
 
-
-#byline {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 3%;
-    font-weight: 100;
+a {
+  color: #ffffff;
 }
 
-#splash {
-    background: url(SplashPage.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #a9404f;
+#info {
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  padding: 5px;
+  font-family: Monospace;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
 }
 
-#splashText {
-    font-family: 'Raleway', sans-serif;
-    color: white;
+#menu {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
 }
 
-#splashText:hover {
-    color: #ff4157;
+.element {
+  width: 120px;
+  height: 160px;
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+  border: 1px solid rgba(127,255,255,0.25);
+  text-align: center;
+  cursor: default;
 }
 
-#splashLogo {
-    width: 16%;
-    margin-top: 6%;
+.element:hover {
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(127,255,255,0.75);
 }
 
-img.logo {
-    height: 75%;
-    margin-top: 0.8%;
-    margin-left: 5%;
-    float: left;
+.element .number {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 12px;
+  color: rgba(127,255,255,0.75);
 }
 
-img.card {
-    width: 76%;
-    margin-top: 2%;
+.element .symbol {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,255,255,0.95);
 }
 
-img.gear {
-    float: left;
-    margin-top: 2%;
-    margin-left: 14%;
-    height: 30%;
+.element .details {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  right: 0px;
+  font-size: 12px;
+  color: rgba(127,255,255,0.75);
 }
 
-img.link1 {
-    height: 25%;
-    float: left;
-    margin-top: 2.1%;
-    margin-left: 10%;
+button {
+  color: rgba(127,255,255,0.75);
+  background: transparent;
+  outline: 1px solid rgba(127,255,255,0.75);
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
-
-img.link2 {
-    height: 25%;
-    float: left;
-    margin-top: 2.1%;
-    margin-left: 1%;
+button:hover {
+  background-color: rgba(0,255,255,0.5);
 }
-
-img.fit {
-    width: 100%;
-}
-
-input[type=text] {
-    width: 35%;;
-    box-sizing: border-box;
-    border: 2px solid #eeeaea;
-    border-radius: 2px;
-    font-size: 10px;
-    font-family: 'Raleway', sans-serif;
-    background-color: white; 
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 0.4% 0.4% 0.4% 0.4%;
-    margin-top: 2%;
-    margin-left: 4%;
-    float: left;
-
-}
-
-p.link {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-}
-
-p.Log {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    float: left;
-    margin-top: 2.3%;
-    margin-left: 2%;
-}
-
-/*divs*/
-
-div.wrapper {
-    background-color: #eeeaea;
-    position:fixed;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-div.header {
-    background-color: #ff4157;
-    width: 100%;
-    height: 12%;
-    border-bottom: thick solid #d74959;
-}
-
-div.links {
-    float: left;
-    margin-top: 1%;
-    margin-left: 12%;
-}
-
-div.filter {
-    background-color: white;
-    width: 15%;
-    float: left;
-}
-
-div.cards {
-    background-color: #eeeaea;
-    width: 70%;
-    float: left;
-}
-
-div.message {
-    background-color: white;
-    width: 15%;
-    float: left;
-}
-
-div.rec{
-    background-color: white;
-    width: 15%;
-    float: left;
+button:active {
+  color: #000000;
+  background-color: rgba(0,255,255,0.75);
 }
