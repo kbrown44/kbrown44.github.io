@@ -3,26 +3,27 @@ var table = [
 	"LM", "Laura Mun", "http://lauramun.me", 2, 1,
 	"ET", "Elliot Tanha", "mailto:morgueresident@gmail.com", 3, 1,
 	"AS", "Amy Samudio", "mailto:amy.samudiob@gmail.com", 4, 1,
-	"DN", "David Neves", "mailto:solorogue99@gmail.com", 1, 2,
-	"JP", "Jessie Pang", "mailto:jessiepang73@gmail.com", 2, 2,
-	"GS", "Gayatri Sehgal", "mailto:gayatri.sehgal@stonybrook.edu", 3, 2,
-	"CM", "Christopher D Munoz", "http://crystalzenaida.com", 4, 2,
-	"DS", "Denise Sahin", "mailto: denisemarie.sahin@gmail.com", 1, 3,
-	"JV", "Jeanmarie Vargas", "jeanmarievargas.com", 2, 3,
-	"JR", "Joseph Renna", "http://www.renna.studio", 3, 3,
-	"JH", "Jenifer Holden", "http://www.jenholdenstudio.com", 4, 3,
-	"KL", "Kunlang Li", "mailto:kunlangli@gmail.com", 1, 4,
-	"RT", "Ranzi Tian", "mailto:ranzi.tian@hotmail.com", 2, 4,
-	"SW", "Suellen Wang", "mailto:suellentic@gmail.com", 3, 4,
-	"HT", "Hugo Tam", "mailto:hugotam2004@gmail.com", 4, 4,
-	"YK", "Yuki (Yik Kiu) Fong", "mailto:yukifong410@gmail.com", 1, 5,
-	"SP", "Sean Patrick ", "http://www.seanpatrick.nyc/", 2, 5,
-	"SC", "Samantha Combs", "mailto:samcombsart@gmail.com", 3, 5,
-	"GZ", "Gaoqi Zheng", "mailto:zgqqi@126.com", 4, 5,
-	"AB", "Angela Bair", "http://www.angelabair.com/", 1, 6,
-	"LJ", "Libo Jiang", "mailto:jianglibo1995@gmail.com", 2, 6,
-	"JTG", "Jesse Talavera-Greenberg", "https://jessetg.github.io/", 3, 6,
-	"MC", "Michael Castro", "mailto:Michael.Castro@stonybrook.edu", 4, 6
+	"DN", "David Neves", "mailto:solorogue99@gmail.com", 5, 1,
+	"JP", "Jessie Pang", "mailto:jessiepang73@gmail.com", 1, 2,
+	"GS", "Gayatri Sehgal", "mailto:gayatri.sehgal@stonybrook.edu", 2, 2,
+	"CM", "Christopher D Munoz", "http://crystalzenaida.com", 3, 2,
+	"DS", "Denise Sahin", "mailto: denisemarie.sahin@gmail.com", 4, 2,
+	"JV", "Jeanmarie Vargas", "http://jeanmarievargas.com", 5, 2,
+	"JR", "Joseph Renna", "http://www.renna.studio", 1, 3,
+	"JH", "Jenifer Holden", "http://www.jenholdenstudio.com", 2, 3,
+	"KL", "Kunlang Li", "mailto:kunlangli@gmail.com", 3, 3,
+	"RT", "Ranzi Tian", "mailto:ranzi.tian@hotmail.com", 4, 3,
+	"SW", "Suellen Wang", "mailto:suellentic@gmail.com", 5, 3,
+	"HT", "Hugo Tam", "mailto:hugotam2004@gmail.com", 1, 4,
+	"YK", "Yuki (Yik Kiu) Fong", "mailto:yukifong410@gmail.com", 2, 4,
+	"SP", "Sean Patrick ", "http://www.seanpatrick.nyc/", 3, 4,
+	"SC", "Samantha Combs", "mailto:samcombsart@gmail.com", 4, 4,
+	"GZ", "Gaoqi Zheng", "mailto:zgqqi@126.com", 5, 4,
+	"AB", "Angela Bair", "http://www.angelabair.com/", 1, 5,
+	"LJ", "Libo Jiang", "mailto:jianglibo1995@gmail.com", 2, 5,
+	"JTG", "Jesse Talavera-Greenberg", "https://jessetg.github.io/", 3, 5,
+	"MC", "Michael Castro", "mailto:Michael.Castro@stonybrook.edu", 4, 5,
+    "FC", "Flannery Cunningham", "http://flannerycunningham.com", 5, 5,
 ];
 
 var camera, scene, renderer;
@@ -75,8 +76,8 @@ function init() {
 		//
 
 		var object = new THREE.Object3D();
-		object.position.x = ( table[ i + 3 ] * 240 ) - 595;
-		object.position.y = - ( table[ i + 4 ] * 280 ) + 1090;
+		object.position.x = ( table[ i + 3 ] * 240 ) - 700;
+		object.position.y = - ( table[ i + 4 ] * 280 ) + 890;
 
 		targets.table.push( object );
 
